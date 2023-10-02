@@ -1,4 +1,12 @@
 -- SQLite
+/*pour un même movie_id de la table
+ratings, additionner tous les votes
+reçus
+puis aller chercher le titre du film
+indiqué dans la table movies
+en liant le movie_id indiqué dans la
+table ratings et le movie_id
+indiqué dans la table movies*/
 SELECT movie_title
 FROM movies
 JOIN (
